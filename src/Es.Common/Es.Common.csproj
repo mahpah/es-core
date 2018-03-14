@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '|AnyCPU'" />
+  <ItemGroup>
+    <Folder Include="Exceptions" />
+    <Folder Include="Utils" />
+  </ItemGroup>
+</Project>

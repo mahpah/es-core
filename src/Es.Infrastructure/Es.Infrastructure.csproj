@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Command" />
+    <Folder Include="CommandHandlers" />
+    <Folder Include="EventHandlers" />
+    <Folder Include="Events" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Es.Common\Es.Common.csproj" />
+  </ItemGroup>
+</Project>
